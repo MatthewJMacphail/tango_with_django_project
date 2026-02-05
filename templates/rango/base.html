@@ -12,11 +12,11 @@
     </title>
     </head>
     <body>
-        <div>
+        <div style="display:inline-block; vertical-align:top; width:72%;">
         {% block body_block %}
         {%  endblock %}
         </div>
-        <div>
+        <div style="display:inline-block; vertical-align:top; width:25%;">
         {% block sidebar_block %}
             {% get_category_list category %}
         {% endblock %}
